@@ -20,31 +20,19 @@
 
 ### 1. 下载脚本
 
-使用 `wget` 或 `curl` 从你的仓库下载脚本。请将下面的 URL 替换为你的脚本的实际 Raw 链接。
+使用 `wget` 或 `curl` 从你的仓库下载脚本。
 
-```sh
-# 使用 wget
-wget https://raw.githubusercontent.com/你的用户名/你的仓库名/main/setup.sh
-
-# 或者使用 curl
-curl -O https://raw.githubusercontent.com/你的用户名/你的仓库名/main/setup.sh
+### 使用 curl 
+```bash
+bash -c "$(curl -sSL https://raw.githubusercontent.com/ImproveRei0/Alpine-nginx-php/main/np.sh)"
+```
+### 使用 wget
+```bash
+bash -c "$(wget -qO - https://raw.githubusercontent.com/ImproveRei0/Alpine-nginx-php/main/np.sh)"
 ```
 
-### 2. 授予执行权限
 
-```sh
-chmod +x setup.sh
-```
-
-### 3. 运行脚本
-
-必须以 `root` 用户身份运行此脚本。
-
-```sh
-sudo ./setup.sh
-```
-
-### 4. 遵循交互式菜单提示
+### 2. 遵循交互式菜单提示
 
 运行后，你将看到一个清晰的菜单：
 
