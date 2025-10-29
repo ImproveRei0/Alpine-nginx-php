@@ -20,8 +20,6 @@
 
 ### 1. 下载脚本
 
-使用 `wget` 或 `curl` 从你的仓库下载脚本。
-
 ### 使用 curl 
 ```bash
 bash -c "$(curl -sSL https://raw.githubusercontent.com/ImproveRei0/Alpine-nginx-php/main/np.sh)"
@@ -30,7 +28,6 @@ bash -c "$(curl -sSL https://raw.githubusercontent.com/ImproveRei0/Alpine-nginx-
 ```bash
 bash -c "$(wget -qO - https://raw.githubusercontent.com/ImproveRei0/Alpine-nginx-php/main/np.sh)"
 ```
-
 
 ### 2. 遵循交互式菜单提示
 
